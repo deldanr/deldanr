@@ -12,7 +12,7 @@ Construyo software con datos e IA: sistemas de agentes, RAG y productos web para
 |---|---|
 | [**ReserLy**](https://reserly.cl) | Software de gestión para empresas: agenda online, clientes y servicios. |
 | [**FireLink-GuaitaIA**](https://firelink.cl) | Detección temprana de humo en incendios forestales con visión artificial sobre cámaras, con alertas por correo, Telegram y push. |
-| [**Parrilla P3D**](https://parrillap3d.com) | Modelador 3D interactivo para dimensionar y presupuestar quinchos y parrillas con bloques de hormigón, con cálculo de materiales y mortero. |
+| [**Parrillapp3d**](https://parrillap3d.com) | Modelador 3D interactivo para dimensionar y presupuestar quinchos y parrillas con bloques de hormigón, con cálculo de materiales y mortero. |
 | **FinFocus** | App web de finanzas personales para personas con TDAH: un solo número, "¿cuánto puedes gastar hoy?", con semáforo de urgencia, rachas y logros. Datos cifrados en el dispositivo. |
 | **JezikApp** | Plataforma de croata con IA conversacional para la diáspora: chat, corrección fonética por voz y tutor virtual en video, con rutas situacionales (ciudadanía, trámites, entrevistas). En desarrollo. |
 | **live-agent** | Servicio propio de avatar conversacional en tiempo real para JezikApp: video y audio sincronizados por WebRTC, con servicio en Rust e inferencia en GPU. En diseño. |
