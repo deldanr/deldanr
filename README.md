@@ -1,45 +1,57 @@
 # Hola, soy Daniel Eldan 👋
 
-Construyo software con datos e IA: sistemas de agentes, RAG y productos web para operación real. Fundador en [Emersys](https://emersys.cl).
+Construyo productos de software con IA que salen a producción: reservas para pymes, detección de incendios forestales con visión artificial, plataformas para municipios y tutores conversacionales con voz y video. Fundador de [Emersys](https://emersys.cl), en Chile 🇨🇱.
 
-[![Sitio](https://img.shields.io/badge/🌐_me.emersys.cl-03102C?style=for-the-badge)](https://me.emersys.cl)
-[![Email](https://img.shields.io/badge/Email-deldanr@gmail.com-A90429?style=for-the-badge&logo=gmail&logoColor=white)](mailto:deldanr@gmail.com)
+[![Sitio](https://img.shields.io/badge/me.emersys.cl-03102C?style=for-the-badge&logo=googlechrome&logoColor=white)](https://me.emersys.cl)
+[![Email](https://img.shields.io/badge/deldanr@gmail.com-A90429?style=for-the-badge&logo=gmail&logoColor=white)](mailto:deldanr@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-deldanr-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/deldanr)
 
-## 🚀 Proyectos
+> El código de mis productos es privado. Lo que sí puedes ver son los productos funcionando: los enlaces de abajo llevan a cada uno.
 
-| Proyecto | Qué es |
-|---|---|
-| [**ReserLy**](https://reserly.cl) | Software de gestión para empresas: agenda online, clientes y servicios. |
-| [**FireLink-GuaitaIA**](https://firelink.cl) | Detección temprana de humo en incendios forestales con visión artificial sobre cámaras, con alertas por correo, Telegram y push. |
-| [**Parrillapp3d**](https://parrillap3d.com) | Modelador 3D interactivo para dimensionar y presupuestar quinchos y parrillas con bloques de hormigón, con cálculo de materiales y mortero. |
-| **FinFocus** | App web de finanzas personales para personas con TDAH: un solo número, "¿cuánto puedes gastar hoy?", con semáforo de urgencia, rachas y logros. Datos cifrados en el dispositivo. |
-| **JezikApp** | Plataforma de croata con IA conversacional para la diáspora: chat, corrección fonética por voz y tutor virtual en video, con rutas situacionales (ciudadanía, trámites, entrevistas). En desarrollo. |
-| **live-agent** | Servicio propio de avatar conversacional en tiempo real para JezikApp: video y audio sincronizados por WebRTC, con servicio en Rust e inferencia en GPU. En diseño. |
-| … y más en [me.emersys.cl](https://me.emersys.cl) | |
+## 🚀 Productos
+
+| | Producto | Qué resuelve | Estado |
+|---|---|---|---|
+| 📅 | [**Reserly**](https://reserly.cl) | Agenda online para negocios de servicios: reservas, clientes y servicios en un solo panel. | 🟢 Producción |
+| 🔥 | [**FireLink · GuaitaIA**](https://firelink.cl) | Detecta columnas de humo en las imágenes de cámaras forestales y avisa al equipo por correo, Telegram o push. Un agente liviano (Docker o Raspberry Pi) conecta cámaras RTSP/ONVIF sin abrir puertos. | 🟡 Beta |
+| 🏛️ | [**SGRD**](https://reducciondelriesgo.cl) | Sistema de gestión del riesgo de desastres para municipios: PWA mobile-first, funciona sin conexión en terreno e incluye una bodega de emergencias. En uso en San Fernando y en camino a ser multi-comuna. | 🟢 Producción |
+| 🇭🇷 | [**JezikApp**](https://jezikapp.com) | Croata para la diáspora con IA conversacional: chat, corrección de pronunciación por voz y videollamada con un tutor virtual, organizado por situaciones reales (ciudadanía, trámites, entrevistas). | 🟡 Piloto cerrado |
+| 🧱 | [**ParrillApp 3D**](https://parrillapp3d.com) | Modelador 3D en el navegador para diseñar quinchos y parrillas con bloques de hormigón y calcular materiales y mortero. | 🟢 Producción |
+| 🗳️ | **Gestión Ciudadana** | SaaS multi-municipio de participación ciudadana: reportes urbanos georreferenciados, consultas y votaciones con verificación de identidad, y juntas de vecinos (asistencia con QR, tesorería, botón de pánico). | 🟡 En desarrollo |
+| 🎭 | **live-agent** | Motor propio de avatar conversacional en tiempo real (video y voz sincronizados por WebRTC), pensado para reemplazar el servicio externo de avatar de JezikApp. | 🔵 I+D |
+
+Más proyectos y contexto en [me.emersys.cl](https://me.emersys.cl).
+
+## 📈 Algunos resultados
+
+- **JezikApp:** la primera respuesta hablada del tutor bajó de **~6,1 s a ~2,5 s**. El modelo responde por oraciones en streaming, la síntesis de voz se hace oración por oración sobre conexiones persistentes y el audio se reproduce en cola estricta.
+- **FireLink:** la detección corre con un modelo de visión **cuantizado a INT8**, y el agente de captura usa **solo conexiones salientes**, así que se instala en la red de un cliente sin tocar su firewall.
+- **SGRD:** formularios de terreno con **autoguardado de borradores sin conexión**, para no perder lo registrado cuando se cae la señal.
 
 ## 🤖 Qué hago con IA
 
-- **Agentes:** agentes con herramientas (MCP, function calling), orquestación multi-agente y flujos con supervisión humana.
-- **Desarrollo asistido por IA:** Claude Code a diario, `git worktrees` para correr tareas de agentes en paralelo sin pisarse, skills reutilizables y revisión automática.
+- **Voz y video en tiempo real:** tutores conversacionales que encadenan reconocimiento de voz → LLM → síntesis de voz → avatar, con streaming de punta a punta para que la conversación no tenga pausas.
+- **Agentes:** agentes con herramientas (MCP, function calling), orquestación de varios agentes y flujos con aprobación humana.
 - **RAG:** ingesta, chunking, embeddings, búsqueda híbrida y evaluación de respuestas sobre documentos propios.
-- **IA conversacional en tiempo real:** tutores con LLM, voz (transcripción y síntesis) y avatares con WebRTC.
-- **Visión artificial:** detección de humo y objetos sobre imágenes de cámaras.
+- **Visión artificial:** detección de objetos en video de cámaras, con modelos optimizados para inferencia en CPU y en el borde.
+- **Clasificación con probabilidades:** modelos que puntúan texto para enrutar, moderar o priorizar, dejando la decisión final en código.
 
-## 💻 Tech stack
+## 🛠️ Cómo trabajo
 
-```python
-{
-  "Lenguajes":   ["Python", "TypeScript", "JavaScript", "Ruby", "Rust", "SQL"],
-  "Web":         ["React", "Next.js", "Rails", "Node.js", "Tailwind", "WebRTC / LiveKit", "REST APIs"],
-  "Datos/ML":    ["pandas", "scikit-learn", "Computer Vision (YOLO)"],
-  "IA":          ["Claude / LLM APIs", "Agentes y MCP", "RAG", "Embeddings y vector stores", "Voz (ElevenLabs, Speechmatics)", "Evals"],
-  "Plataforma":  ["Git y worktrees", "PostgreSQL / Supabase", "Vercel", "Docker"],
-  "BI":          ["Power BI", "Tableau"]
-}
-```
+Cada producto propio pasa por el mismo proceso: **PRD por milestones → arquitectura → sistema de diseño → cumplimiento de protección de datos (Ley 21.719) → construcción**. Cada milestone se cierra con tests, CI/CD, revisión de código y de seguridad, y verificación visual con capturas reales.
 
-## 📊 GitHub
+En el día a día desarrollo con agentes de código: tareas en paralelo con `git worktrees`, skills reutilizables y revisión automatizada.
 
-![Stats](https://github-readme-stats.vercel.app/api?username=deldanr&theme=dark&hide_border=true)
-![Lenguajes](https://github-readme-stats.vercel.app/api/top-langs/?username=deldanr&theme=dark&hide_border=true&layout=compact)
+## 💻 Stack
+
+- **Lenguajes:** Python · TypeScript · Rust · Ruby · SQL
+- **Web y móvil:** React · Next.js · Vite · Tailwind · FastAPI · Node/Express · NestJS · Rails · React Native/Expo · PWA
+- **IA:** LLMs · agentes y MCP · reconocimiento de voz (STT) · síntesis de voz (TTS) · avatares en tiempo real · embeddings y búsqueda vectorial · evals
+- **Visión:** YOLO · ONNX Runtime · cuantización INT8
+- **Tiempo real:** WebRTC · LiveKit · SSE · WebSockets
+- **Datos:** PostgreSQL · PostGIS · Supabase · Redis · pandas · scikit-learn
+- **Plataforma:** Docker · Vercel · Cloudflare · GitHub Actions · VPS Linux · inferencia en GPU
+
+## 📦 Código abierto
+
+- [**apa-unab**](https://github.com/deldanr/apa-unab): skill para generar documentos Word en formato APA 7 según la guía de la UNAB.
