@@ -38,9 +38,9 @@ Más proyectos y contexto en [me.emersys.cl](https://me.emersys.cl).
 
 ## 🛠️ Cómo trabajo
 
-Cada producto propio pasa por el mismo proceso: **PRD por milestones → arquitectura → sistema de diseño → cumplimiento de protección de datos (Ley 21.719) → construcción**. Cada milestone se cierra con tests, CI/CD, revisión de código y de seguridad, y verificación visual con capturas reales.
+**Desarrollo agéntico multiagente.** Paso rápido de una idea a un producto o servicio desplegado con varios agentes de código trabajando en paralelo, cada uno en su propio entorno aislado. Lo hago de dos formas: **asistido**, dirigiendo yo cada paso, o **autónomo**, con un agente supervisor que reparte el trabajo, revisa e integra mientras yo apruebo.
 
-En el día a día desarrollo con agentes de código: tareas en paralelo con `git worktrees`, skills reutilizables y revisión automatizada.
+**Velocidad con estándar de producto:** antes de construir defino el alcance, la arquitectura, el diseño y el cumplimiento de protección de datos (Ley 21.719), y cada entrega se cierra con tests, CI/CD y revisión de código y de seguridad.
 
 ## 💻 Stack
 
