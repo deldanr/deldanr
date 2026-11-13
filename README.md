@@ -1,39 +1,45 @@
-<!---
-deldanr/deldanr is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
-# Hi!, I'm Daniel Eldan 👋
+# Hola, soy Daniel Eldan 👋
 
-Welcome to my Github profile 💫. Here you can look at my random projects and reach out what I am capable to do (just a bit 😉). All of my repositories were made by myself just learning and looking out how it could be done, testing and deploying a solution for an specific problem and enjoying the journey.
+Construyo software con datos e IA: sistemas de agentes, RAG y productos web para operación real. Fundador en [Emersys](https://emersys.cl).
 
-## 📫 How to reach me
+[![Sitio](https://img.shields.io/badge/🌐_me.emersys.cl-03102C?style=for-the-badge)](https://me.emersys.cl)
+[![Email](https://img.shields.io/badge/Email-deldanr@gmail.com-A90429?style=for-the-badge&logo=gmail&logoColor=white)](mailto:deldanr@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-deldanr-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/deldanr)
 
-- 📧 Email: [deldanr@gmail.com](mailto:deldanr@gmail.com)
-- 📱 WhatsApp: [+56 9 511 31 292](https://wa.me/56951131292)
+## 🚀 Proyectos
 
-## 🌐 Socials
+| Proyecto | Qué es |
+|---|---|
+| [**ReserLy**](https://reserly.cl) | Software de gestión para empresas: agenda online, clientes y servicios. |
+| [**FireLink-GuaitaIA**](https://firelink.cl) | Detección temprana de humo en incendios forestales con visión artificial sobre cámaras, con alertas por correo, Telegram y push. |
+| [**Parrilla P3D**](https://parrillap3d.com) | Modelador 3D interactivo para dimensionar y presupuestar quinchos y parrillas con bloques de hormigón, con cálculo de materiales y mortero. |
+| **FinFocus** | App web de finanzas personales para personas con TDAH: un solo número, "¿cuánto puedes gastar hoy?", con semáforo de urgencia, rachas y logros. Datos cifrados en el dispositivo. |
+| **JezikApp** | Plataforma de croata con IA conversacional para la diáspora: chat, corrección fonética por voz y tutor virtual en video, con rutas situacionales (ciudadanía, trámites, entrevistas). En desarrollo. |
+| **live-agent** | Servicio propio de avatar conversacional en tiempo real para JezikApp: video y audio sincronizados por WebRTC, con servicio en Rust e inferencia en GPU. En diseño. |
+| … y más en [me.emersys.cl](https://me.emersys.cl) | |
 
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/deldanr)
+## 🤖 Qué hago con IA
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/deldanr) 
+- **Agentes:** agentes con herramientas (MCP, function calling), orquestación multi-agente y flujos con supervisión humana.
+- **Desarrollo asistido por IA:** Claude Code a diario, `git worktrees` para correr tareas de agentes en paralelo sin pisarse, skills reutilizables y revisión automática.
+- **RAG:** ingesta, chunking, embeddings, búsqueda híbrida y evaluación de respuestas sobre documentos propios.
+- **IA conversacional en tiempo real:** tutores con LLM, voz (transcripción y síntesis) y avatares con WebRTC.
+- **Visión artificial:** detección de humo y objetos sobre imágenes de cámaras.
 
-## 💻 Tech Stack
+## 💻 Tech stack
 
 ```python
 {
-  "Languages": ["Python", "SQL", "JavaScript"],
-  "Frameworks/Libraries": ["React", "Node.js", "pandas", "scikit-learn"],
-  "Tools": ["Anaconda", "PowerBI", "Tableau", "vsCode", "MS Workbench", "Office 365" ],
-  "Specialities": ["Data Science", "Computer Vision"]
+  "Lenguajes":   ["Python", "TypeScript", "JavaScript", "Ruby", "Rust", "SQL"],
+  "Web":         ["React", "Next.js", "Rails", "Node.js", "Tailwind", "WebRTC / LiveKit", "REST APIs"],
+  "Datos/ML":    ["pandas", "scikit-learn", "Computer Vision (YOLO)"],
+  "IA":          ["Claude / LLM APIs", "Agentes y MCP", "RAG", "Embeddings y vector stores", "Voz (ElevenLabs, Speechmatics)", "Evals"],
+  "Plataforma":  ["Git y worktrees", "PostgreSQL / Supabase", "Vercel", "Docker"],
+  "BI":          ["Power BI", "Tableau"]
 }
 ```
 
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=deldanr&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=deldanr&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=deldanr&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+## 📊 GitHub
 
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
----
-[![](https://visitcount.itsvg.in/api?id=deldanr&icon=0&color=0)](https://visitcount.itsvg.in)
+![Stats](https://github-readme-stats.vercel.app/api?username=deldanr&theme=dark&hide_border=true)
+![Lenguajes](https://github-readme-stats.vercel.app/api/top-langs/?username=deldanr&theme=dark&hide_border=true&layout=compact)
