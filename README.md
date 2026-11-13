@@ -14,7 +14,6 @@ Construyo productos de software con IA que salen a producción: reservas para py
 |---|---|---|---|
 | 📅 | [**Reserly**](https://reserly.cl) | Agenda online para negocios de servicios: reservas, clientes y servicios en un solo panel. | 🟢 Producción |
 | 🔥 | [**FireLink · GuaitaIA**](https://firelink.cl) | Detecta columnas de humo en las imágenes de cámaras forestales y avisa al equipo por correo, Telegram o push. Un agente liviano (Docker o Raspberry Pi) conecta cámaras RTSP/ONVIF sin abrir puertos. | 🟡 Beta |
-| 🏛️ | [**SGRD**](https://reducciondelriesgo.cl) | Sistema de gestión del riesgo de desastres para municipios: PWA mobile-first, funciona sin conexión en terreno e incluye una bodega de emergencias. En uso en San Fernando y en camino a ser multi-comuna. | 🟢 Producción |
 | 🇭🇷 | [**JezikApp**](https://jezikapp.com) | Croata para la diáspora con IA conversacional: chat, corrección de pronunciación por voz y videollamada con un tutor virtual, organizado por situaciones reales (ciudadanía, trámites, entrevistas). | 🟡 Piloto cerrado |
 | 🧱 | [**ParrillApp 3D**](https://parrillapp3d.com) | Modelador 3D en el navegador para diseñar quinchos y parrillas con bloques de hormigón y calcular materiales y mortero. | 🟢 Producción |
 | 🗳️ | **Gestión Ciudadana** | SaaS multi-municipio de participación ciudadana: reportes urbanos georreferenciados, consultas y votaciones con verificación de identidad, y juntas de vecinos (asistencia con QR, tesorería, botón de pánico). | 🟡 En desarrollo |
@@ -26,7 +25,6 @@ Más proyectos y contexto en [me.emersys.cl](https://me.emersys.cl).
 
 - **JezikApp:** la primera respuesta hablada del tutor bajó de **~6,1 s a ~2,5 s**. El modelo responde por oraciones en streaming, la síntesis de voz se hace oración por oración sobre conexiones persistentes y el audio se reproduce en cola estricta.
 - **FireLink:** la detección corre con un modelo de visión **cuantizado a INT8**, y el agente de captura usa **solo conexiones salientes**, así que se instala en la red de un cliente sin tocar su firewall.
-- **SGRD:** formularios de terreno con **autoguardado de borradores sin conexión**, para no perder lo registrado cuando se cae la señal.
 
 ## 🤖 Qué hago con IA
 
