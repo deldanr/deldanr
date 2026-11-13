@@ -38,9 +38,7 @@ Más proyectos y contexto en [me.emersys.cl](https://me.emersys.cl).
 
 ## 🛠️ Cómo trabajo
 
-**Desarrollo agéntico multiagente.** Paso rápido de una idea a un producto o servicio desplegado con varios agentes de código trabajando en paralelo, cada uno en su propio entorno aislado. Lo hago de dos formas: **asistido**, dirigiendo yo cada paso, o **autónomo**, con un agente supervisor que reparte el trabajo, revisa e integra mientras yo apruebo.
-
-**Velocidad con estándar de producto:** antes de construir defino el alcance, la arquitectura, el diseño y el cumplimiento de protección de datos (Ley 21.719), y cada entrega se cierra con tests, CI/CD y revisión de código y de seguridad.
+**Desarrollo agéntico:** paso rápido de una idea a un producto o servicio desplegado, con metodologías de trabajo agéntico múltiple, entornos aislados y metas que conversan entre sí. Trabajo **asistido** cuando corresponde, dirigiendo yo los milestones que así lo requieren, o **autónomo**, con agentes supervisores que se alinean a mis convenciones de trabajo, a los requerimientos del cliente y a los estándares actuales de producto y servicio.
 
 ## 💻 Stack
 
