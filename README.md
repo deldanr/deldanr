@@ -6,8 +6,6 @@ Construyo productos de software con IA que salen a producción: reservas para py
 [![Email](https://img.shields.io/badge/deldanr@gmail.com-A90429?style=for-the-badge&logo=gmail&logoColor=white)](mailto:deldanr@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-deldanr-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/deldanr)
 
-> El código de mis productos es privado. Lo que sí puedes ver son los productos funcionando: los enlaces de abajo llevan a cada uno.
-
 ## 🚀 Productos
 
 | | Producto | Qué resuelve | Estado |
